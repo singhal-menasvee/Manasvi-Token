@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    background: url('6073424.jpg') no-repeat center center;
+    background-size: cover; /* Ensures it covers the whole screen */
+    color: white;
+}
+
+
+.container {
+    max-width: 500px;
+    height: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #1e1e2f;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+}
+.container h1{
+    margin-top: 200px;
+}
+
+#coinImage {
+    position: absolute;
+    bottom: 100;
+    margin-left: 150px;
+    width: 250px; /* Adjust size */
+    height: auto;
+    max-width: 30%; /* Keeps it responsive */
+    overflow: hidden; /* Prevents overflow */
+}
+
+#coinImage img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: #3a9140;
+}
+
+.hidden {
+    display: none;
+}
+
+.action-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #2c2c3d;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background: #44445a;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #666;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+}
